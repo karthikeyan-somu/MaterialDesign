@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kasomu.materialdesign.FilterActivity"
+    android:backgroundTint="#fffeff4d">
+
+    <include
+        android:id="@+id/app_barid"
+        layout="@layout/app_bar"></include>
+
+    <CheckBox
+        android:id="@+id/chkMorning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_barid"
+        android:buttonTint="#ff646464"
+        android:buttonTintMode="src_in"
+        android:text="Morning Jobs"
+        android:ellipsize="end" />
+
+    <CheckBox
+        android:id="@+id/chkAfternoon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chkMorning"
+        android:buttonTint="#ff646464"
+        android:text="Afternoon Jobs" />
+
+    <CheckBox
+        android:id="@+id/chkEvening"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chkAfternoon"
+        android:buttonTint="#ff646464"
+        android:text="Evening Jobs" />
+
+
+    <CheckBox
+        android:id="@+id/chkNight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chkEvening"
+        android:buttonTint="#ff646464"
+        android:text="Night Jobs" />
+
+    <Button
+        android:id="@+id/btnFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chkNight"
+        android:layout_marginLeft="8dp"
+        android:background="@color/primaryColor"
+        android:minWidth="150dp"
+        android:text="@string/filter_button"
+        android:textColor="#EEE" />
+</RelativeLayout>

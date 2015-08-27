@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MaterialDesign</string>
+    <string name="title_activity_main">MaterialDesignActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="filter">Filter</string>
+    <string name="title_activity_filter">FilterActivity</string>
+    <string name="title_activity_filter1">Filter1</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="filter_button">Apply Filter</string>
+    <string name="title_activity_android_auto_complete_text_view">AndroidAutoCompleteTextView
+    </string>
+</resources>
